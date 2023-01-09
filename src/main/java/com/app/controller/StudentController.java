@@ -11,6 +11,7 @@ public class StudentController {
   {
      int i=10000;
 
+     System.out.println(i);
 	  return null;
   }
 }
