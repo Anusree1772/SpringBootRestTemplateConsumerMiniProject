@@ -9,7 +9,7 @@ public class StudentController {
   @RequestMapping("")
   public String createStudent()
   {
-     int i=1000;
+     int i=200;
 	  return null;
   }
 }
