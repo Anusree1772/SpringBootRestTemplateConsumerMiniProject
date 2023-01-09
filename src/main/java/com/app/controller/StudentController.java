@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class StudentController {
 
-  @RequestMapping("")
+  @RequestMapping("/createStudent")
   public String createStudent()
   {
      int i=500;
