@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class StudentController {
 
-  @RequestMapping("/createStudent")
+  @RequestMapping("")
   public String createStudent()
   {
      int i=200;
-
-     return null;
+	  return null;
   }
 }
