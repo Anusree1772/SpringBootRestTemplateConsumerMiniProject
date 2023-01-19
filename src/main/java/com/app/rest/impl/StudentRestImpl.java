@@ -1,4 +1,4 @@
-package com.app.rest;
+package com.app.rest.impl;
 
 
 import org.springframework.http.HttpEntity;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import com.app.entity.Student;
-import com.app.rest.impl.IStudentRest;
+import com.app.rest.IStudentRest;
 
 @Component
 public class StudentRestImpl implements IStudentRest{

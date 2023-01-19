@@ -32,10 +32,17 @@ public class StudentController {
 		
 		System.out.println(s);
 		
-		String message=new StringBuffer().append("EMPLOYEE '")
+		String message=new StringBuffer().append("STUDENT '")
 				.append(id).append("' CREATED").toString();
 		model.addAttribute("message",message);
 		
 		return "StudentRegistration";
+	}
+	
+	@GetMapping("/all")
+	public String getAllStudents()
+	{
+	
+		return "";
 	}
 }

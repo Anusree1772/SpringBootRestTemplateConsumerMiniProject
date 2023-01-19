@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.app.entity.Student;
-import com.app.rest.impl.IStudentRest;
+import com.app.rest.IStudentRest;
 import com.app.service.IStudentService;
 
 @Service

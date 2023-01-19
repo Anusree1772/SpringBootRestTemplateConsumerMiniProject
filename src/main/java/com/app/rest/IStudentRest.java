@@ -1,4 +1,4 @@
-package com.app.rest.impl;
+package com.app.rest;
 
 import com.app.entity.Student;
 
