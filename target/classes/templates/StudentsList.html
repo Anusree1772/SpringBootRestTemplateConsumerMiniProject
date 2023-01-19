@@ -1,0 +1,24 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+<head>
+<title>WELCOME TO DATA PAGE</title>
+</head>
+<body>
+	<h2>STUDENT DATA PAGE</h2>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th>GENDER</th>
+			<th>COURSE</th>
+			<th>ADDRESS</th>
+		</tr>
+		<tr th:each="ob:${list}">
+			<td>[[${ob.stdId}]]</td>
+			<td>[[${ob.stdName}]]</td>
+			<td>[[${ob.stdGen}]]</td>
+			<td>[[${ob.stdCourse}]]</td>
+			<td>[[${ob.stdAddr}]]</td>
+		</tr>
+	</table>
+</body>
+</html>

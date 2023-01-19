@@ -8,11 +8,11 @@ public class Student {
 
 	private String stdName;
 
-	private String stdGend;
+	private String stdGen;
 
 	private String stdCourse;
 	
-	private String stdAddress;
+	private String stdAddr;
 
 	public Integer getStdId() {
 		return stdId;
@@ -30,12 +30,12 @@ public class Student {
 		this.stdName = stdName;
 	}
 
-	public String getStdGend() {
-		return stdGend;
+	public String getStdGen() {
+		return stdGen;
 	}
 
-	public void setStdGend(String stdGend) {
-		this.stdGend = stdGend;
+	public void setStdGend(String stdGen) {
+		this.stdGen = stdGen;
 	}
 
 	public String getStdCourse() {
@@ -46,18 +46,18 @@ public class Student {
 		this.stdCourse = stdCourse;
 	}
 
-	public String getStdAddress() {
-		return stdAddress;
+	public String getstdAddr() {
+		return stdAddr;
 	}
 
-	public void setStdAddress(String stdAddress) {
-		this.stdAddress = stdAddress;
+	public void setstdAddr(String stdAddr) {
+		this.stdAddr = stdAddr;
 	}
 
 	@Override
 	public String toString() {
-		return "Student [stdId=" + stdId + ", stdName=" + stdName + ", stdGend=" + stdGend + ", stdCourse=" + stdCourse
-				+ ", stdAddress=" + stdAddress + "]";
+		return "Student [stdId=" + stdId + ", stdName=" + stdName + ", stdGend=" + stdGen + ", stdCourse=" + stdCourse
+				+ ", stdAddr=" + stdAddr + "]";
 	}
 	
 	

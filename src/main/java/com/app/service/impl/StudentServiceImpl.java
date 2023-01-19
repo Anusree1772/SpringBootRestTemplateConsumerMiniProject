@@ -1,5 +1,7 @@
 package com.app.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +21,13 @@ public class StudentServiceImpl implements IStudentService {
 		Integer id=rest.saveStudent(s);
 		
 		return id;
+	}
+	
+	public List<Student> getAllStudents()
+	{
+		List<Student> students=rest.getAllStudents();
+		
+		return students;
 	}
 
 }
